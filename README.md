@@ -33,11 +33,29 @@ New here? Start with [`checklists/testing-methodology.md`](./checklists/testing-
 
 This vault compiles and attributes techniques from:
 
-- **Academic research:** ACSAC 2023 — *"OAuth 2.0 Redirect URI Validation Falls Short, Literally"* (Innocenti, Golinelli, Onarlioglu, Mirheidari, Crispo, Kirda)
-- **Standards:** RFC 9700 — OAuth 2.0 Security Best Current Practice (IETF, Jan 2025)
-- **Books:** *Bug Bounty Bootcamp* (Vickie Li, No Starch Press), *Real-World Bug Hunting* (Peter Yaworski, No Starch Press)
-- **Research:** PortSwigger Research, HackTricks, OWASP
-- **Disclosed reports:** Public HackerOne reports, CVE advisories
+**Academic research (chronological):**
+- Wang, X., Lau, W.C., Shi, S., Yang, R. (2019). *"Make Redirection Evil Again — URL Parser Issues in OAuth."* Black Hat Asia 2019.
+- Birch, J. (2019). *"HostSplit: Exploitable Antipatterns in Unicode Normalization."* Black Hat USA 2019.
+- *Cerberus* (2022). ACM CCS 2022 — static analysis tool, found 47 logic flaws in OAuth libraries (24 previously unknown).
+- *OAuch* (2022) — OAuth 2.0 ecosystem compliance testing framework.
+- Innocenti, T., Golinelli, M., Onarlioglu, K., Mirheidari, A., Crispo, B., Kirda, E. (2023). *"OAuth 2.0 Redirect URI Validation Falls Short, Literally."* ACSAC 2023.
+- Innocenti, T., Jannett, L., Mainka, C., Mladenov, V., Kirda, E. (2025). *"Only as Strong as the Weakest Link: On the Security of Brokered Single Sign-On on the Web."* IEEE S&P 2025.
+- Philippaerts, P., Vanhoof, J., Van Cutsem, T., Joosen, W. (2024). *"Is Your OAuth Middleware Vulnerable? Evaluating Open-Source Identity Providers' Security."* IEEE GLOBECOM 2024.
+- Luo, K., Wang, X., Fung, P., Lau, W. (2026). *"Demystifying the (In)Security of OAuth-Based Account Linking in Connector Ecosystems."* IEEE S&P 2026.
+
+**Standards:**
+- RFC 9700 — OAuth 2.0 Security Best Current Practice (IETF, Mar 2025)
+
+**Books:**
+- *Bug Bounty Bootcamp* (Vickie Li, No Starch Press)
+- *Real-World Bug Hunting* (Peter Yaworski, No Starch Press)
+
+**Research & practitioner sources:**
+- PortSwigger Research, HackTricks, OWASP, Voorivex Team
+
+**Disclosed real-world reports:**
+- Public HackerOne reports (GitLab #1613430, #1725190)
+- CVE advisories (CVE-2024-52289 — authentik; GHSA-hhpq-7wg4-36jm — CakePHP)
 
 Every payload file links back to its source. If you use this repo, please keep the attributions intact — see [LICENSE](./LICENSE).
 
@@ -47,7 +65,7 @@ For authorized security testing only — bug bounty programs you're enrolled in,
 
 ## Author
 
-Maintained by **Ahmed** — security researcher (Bugcrowd Hall of Fame, application security testing).
+Maintained by **Ahmed Mahmoud** — security researcher.
 
 ## Contributing
 
