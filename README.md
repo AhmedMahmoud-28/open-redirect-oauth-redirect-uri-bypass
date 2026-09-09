@@ -1,4 +1,4 @@
-# Open Redirect & OAuth `redirect_uri` Bypass Vault
+# open-redirect-oauth-SSO-redirect-uri-bypass
 
 > A categorized, source-attributed collection of Open Redirect and OAuth `redirect_uri` validation bypass techniques — for bug bounty hunters, pentesters, and AppSec engineers.
 
